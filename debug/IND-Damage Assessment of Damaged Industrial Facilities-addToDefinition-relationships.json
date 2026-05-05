@@ -1,0 +1,374 @@
+{
+    "layers": [
+        {
+            "id": 0,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 1,
+                    "keyField": "globalid",
+                    "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities_Location_Identification",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 12,
+                    "keyField": "globalid",
+                    "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities_Q4_Damages_Vehicles_Engineering_Euipment",
+                    "relatedTableId": 12,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 14,
+                    "keyField": "globalid",
+                    "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities_G_001",
+                    "relatedTableId": 14,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 1,
+                    "keyField": "parentglobalid",
+                    "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities_Location_Identification",
+                    "relatedTableId": 0,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 2,
+                    "keyField": "globalid",
+                    "name": "Location_Identification_Q3_14_Site_Photos_Damage",
+                    "relatedTableId": 2,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 3,
+                    "keyField": "globalid",
+                    "name": "Location_Identification_Q3_16_Production_Equipment_and_Machines",
+                    "relatedTableId": 3,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 6,
+                    "keyField": "globalid",
+                    "name": "Location_Identification_Q3_17_Damages_to_Goods_Inventory",
+                    "relatedTableId": 6,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 8,
+                    "keyField": "globalid",
+                    "name": "Location_Identification_Q3_18_Damages_to_Generators_and_Power_Sources",
+                    "relatedTableId": 8,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 10,
+                    "keyField": "globalid",
+                    "name": "Location_Identification_Q3_19_Damages_to_Logistics_and_Support_Components",
+                    "relatedTableId": 10,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 2,
+                    "keyField": "parentglobalid",
+                    "name": "Location_Identification_Q3_14_Site_Photos_Damage",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 3,
+                    "keyField": "parentglobalid",
+                    "name": "Location_Identification_Q3_16_Production_Equipment_and_Machines",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 4,
+                    "keyField": "globalid",
+                    "name": "Q3_16_Production_Equipment_and_Machines_Q3_16_2_Machine_or_Equipment_Details",
+                    "relatedTableId": 4,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 5,
+                    "keyField": "globalid",
+                    "name": "Q3_16_Production_Equipment_and_Machines_Q3_16_3_Production_Line_Photos",
+                    "relatedTableId": 5,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 4,
+                    "keyField": "parentglobalid",
+                    "name": "Q3_16_Production_Equipment_and_Machines_Q3_16_2_Machine_or_Equipment_Details",
+                    "relatedTableId": 3,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 5,
+                    "keyField": "parentglobalid",
+                    "name": "Q3_16_Production_Equipment_and_Machines_Q3_16_3_Production_Line_Photos",
+                    "relatedTableId": 3,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 6,
+                    "keyField": "parentglobalid",
+                    "name": "Location_Identification_Q3_17_Damages_to_Goods_Inventory",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 7,
+                    "keyField": "globalid",
+                    "name": "Q3_17_Damages_to_Goods_Inventory_Q3_17_5_Warehouse_Inventory_Photos",
+                    "relatedTableId": 7,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 7,
+                    "keyField": "parentglobalid",
+                    "name": "Q3_17_Damages_to_Goods_Inventory_Q3_17_5_Warehouse_Inventory_Photos",
+                    "relatedTableId": 6,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 8,
+                    "keyField": "parentglobalid",
+                    "name": "Location_Identification_Q3_18_Damages_to_Generators_and_Power_Sources",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 9,
+                    "keyField": "globalid",
+                    "name": "Q3_18_Damages_to_Generators_and_Power_Sources_Q3_18_13_Power_Source_Photos",
+                    "relatedTableId": 9,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 9,
+                    "keyField": "parentglobalid",
+                    "name": "Q3_18_Damages_to_Generators_and_Power_Sources_Q3_18_13_Power_Source_Photos",
+                    "relatedTableId": 8,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 10,
+                    "keyField": "parentglobalid",
+                    "name": "Location_Identification_Q3_19_Damages_to_Logistics_and_Support_Components",
+                    "relatedTableId": 1,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 11,
+                    "keyField": "globalid",
+                    "name": "Q3_19_Damages_to_Logistics_and_Support_Components_Q3_19_4_Logistics_Support_Photos",
+                    "relatedTableId": 11,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 11,
+                    "keyField": "parentglobalid",
+                    "name": "Q3_19_Damages_to_Logistics_and_Support_Components_Q3_19_4_Logistics_Support_Photos",
+                    "relatedTableId": 10,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 12,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 12,
+                    "keyField": "parentglobalid",
+                    "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities_Q4_Damages_Vehicles_Engineering_Euipment",
+                    "relatedTableId": 0,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                },
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 13,
+                    "keyField": "globalid",
+                    "name": "Q4_Damages_Vehicles_Engineering_Euipment_Q4_7_Vehicle_or_Engineering_Euipment_Photos",
+                    "relatedTableId": 13,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleOrigin"
+                }
+            ]
+        },
+        {
+            "id": 13,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 13,
+                    "keyField": "parentglobalid",
+                    "name": "Q4_Damages_Vehicles_Engineering_Euipment_Q4_7_Vehicle_or_Engineering_Euipment_Photos",
+                    "relatedTableId": 12,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        },
+        {
+            "id": 14,
+            "name": null,
+            "relationships": [
+                {
+                    "cardinality": "esriRelCardinalityOneToMany",
+                    "composite": true,
+                    "id": 14,
+                    "keyField": "parentglobalid",
+                    "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities_G_001",
+                    "relatedTableId": 0,
+                    "relatedTableName": null,
+                    "role": "esriRelRoleDestination"
+                }
+            ]
+        }
+    ]
+}

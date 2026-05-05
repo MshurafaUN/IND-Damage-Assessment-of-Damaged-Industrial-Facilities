@@ -1,0 +1,18 @@
+{
+    "capabilities": "Create",
+    "editorTrackingInfo": {
+        "allowAnonymousToDelete": false,
+        "allowAnonymousToQuery": false,
+        "allowAnonymousToUpdate": false,
+        "allowOthersToDelete": true,
+        "allowOthersToQuery": true,
+        "allowOthersToUpdate": true,
+        "enableEditorTracking": false,
+        "enableOwnershipAccessControl": false
+    },
+    "hasStaticData": false,
+    "isUpdatableView": true,
+    "isView": true,
+    "name": "service_38e37814ff324b66ac1f02ed0001ab68_form",
+    "sourceSchemaChangesAllowed": true
+}

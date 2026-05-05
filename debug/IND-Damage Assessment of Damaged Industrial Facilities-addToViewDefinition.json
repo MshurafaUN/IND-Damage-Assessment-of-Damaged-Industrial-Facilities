@@ -1,0 +1,156 @@
+{
+    "layers": [
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 0,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "IND_Damage_Assessment_of_Damaged_Industrial_Facilities"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 1,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Location_Identification"
+        }
+    ],
+    "tables": [
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 2,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_14_Site_Photos_Damage"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 3,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_16_Production_Equipment_and_Machines"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 4,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_16_2_Machine_or_Equipment_Details"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 5,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_16_3_Production_Line_Photos"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 6,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_17_Damages_to_Goods_Inventory"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 7,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_17_5_Warehouse_Inventory_Photos"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 8,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_18_Damages_to_Generators_and_Power_Sources"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 9,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_18_13_Power_Source_Photos"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 10,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_19_Damages_to_Logistics_and_Support_Components"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 11,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q3_19_4_Logistics_Support_Photos"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 12,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q4_Damages_Vehicles_Engineering_Euipment"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 13,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "Q4_7_Vehicle_or_Engineering_Euipment_Photos"
+        },
+        {
+            "adminLayerInfo": {
+                "viewLayerDefinition": {
+                    "sourceLayerFields": "*",
+                    "sourceLayerId": 14,
+                    "sourceServiceName": "service_38e37814ff324b66ac1f02ed0001ab68"
+                }
+            },
+            "name": "G_001"
+        }
+    ]
+}

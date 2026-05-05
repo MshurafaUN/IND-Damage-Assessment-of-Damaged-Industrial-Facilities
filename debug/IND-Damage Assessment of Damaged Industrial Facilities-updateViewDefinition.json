@@ -1,0 +1,13 @@
+{
+    "capabilities": "Create,Query,Update,Sync,Uploads",
+    "editorTrackingInfo": {
+        "allowAnonymousToDelete": false,
+        "allowAnonymousToQuery": false,
+        "allowAnonymousToUpdate": false,
+        "allowOthersToDelete": true,
+        "allowOthersToUpdate": true,
+        "enableEditorTracking": true,
+        "enableOwnershipAccessControl": true
+    },
+    "hasStaticData": false
+}

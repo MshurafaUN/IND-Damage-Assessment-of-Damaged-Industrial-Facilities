@@ -1,0 +1,66 @@
+{
+    "access": "public",
+    "accessInformation": null,
+    "advancedSettings": null,
+    "apiToken1ExpirationDate": -1,
+    "apiToken2ExpirationDate": -1,
+    "appCategories": [
+    ],
+    "avgRating": 0,
+    "banner": null,
+    "categories": [
+    ],
+    "classification": null,
+    "commentsEnabled": true,
+    "created": 1771145767000,
+    "culture": "en-us",
+    "description": "",
+    "documentation": null,
+    "extent": [
+    ],
+    "groupDesignations": null,
+    "guid": null,
+    "id": "49260a01a4d9458e90dc5420b361031f",
+    "industries": [
+    ],
+    "isOrgItem": true,
+    "itemControl": "admin",
+    "languages": [
+    ],
+    "largeThumbnail": null,
+    "lastViewed": 1777906800000,
+    "licenseInfo": null,
+    "listed": false,
+    "modified": 1777909074000,
+    "name": "IND-Damage_Assessment_of_Damaged_Industrial_Facilities.zip",
+    "numComments": 0,
+    "numRatings": 0,
+    "numViews": 1768,
+    "orgId": "VoOot7GfoaREFqQk",
+    "owner": "mohammed.shurafa",
+    "ownerFolder": null,
+    "properties": {
+        "connectVersion": "3.25.27"
+    },
+    "protected": false,
+    "proxyFilter": null,
+    "scoreCompleteness": 33,
+    "screenshots": [
+    ],
+    "size": 533095,
+    "snippet": "",
+    "spatialReference": null,
+    "subInfo": 0,
+    "tags": [
+    ],
+    "thumbnail": "thumbnail/logo.jpg",
+    "title": "IND - National Project for Damage Assessment and Evaluation of the Industrial Sector",
+    "type": "Form",
+    "typeKeywords": [
+        "Form",
+        "Survey123",
+        "Survey123 Connect",
+        "xForm"
+    ],
+    "url": null
+}
