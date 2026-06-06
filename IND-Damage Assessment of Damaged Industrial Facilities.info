@@ -41,7 +41,7 @@
         "editEnabled": true,
         "mode": "manual",
         "viewEnabled": true,
-        "where": "AssignedTo = ${username}\nAND Field_status IN ('Not_Completed','pending')"
+        "where": "AssignedTo = ${username} \nAND Field_status IN ('Not_completed_geo','Not_completed_audit','Not_completed_nogo')\nAND (\n  New_Field_status IS NULL \n  OR New_Field_status = '' \n  OR New_Field_status IN ('Not_completed_geo','Not_completed_audit','Not_completed_nogo')\n)"
     },
     "sentInfo": {
         "copyEnabled": false,
@@ -55,7 +55,7 @@
                 "isEnabled": false
             },
             "draftInfo": {
-                "isEnabled": true
+                "isEnabled": false
             },
             "isVersionLocked": true,
             "multiSubmissionInfo": {
@@ -67,7 +67,10 @@
             "notificationsInfo": {
             },
             "openStatusInfo": {
-                "closedStatusContent": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"media/openClose.png\"></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size:16px;\">This survey is currently closed. Thanks!</strong></p>",
+                "closedStatusContent": {
+                    "ar": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"media/openClose.png\"></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size:16px;\">This survey is currently closed. Thanks!</strong></p>",
+                    "en-us": "<p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><img src=\"media/openClose.png\"></p><p style=\"text-align: center;\"><br></p><p style=\"text-align: center;\"><strong style=\"font-size:16px;\">This survey is currently closed. Thanks!</strong></p>"
+                },
                 "schedule": {
                     "end": null,
                     "start": null
