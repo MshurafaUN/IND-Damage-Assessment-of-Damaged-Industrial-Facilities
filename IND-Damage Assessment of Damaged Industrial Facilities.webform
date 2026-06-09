@@ -819,10 +819,6 @@
                 "isRequired": false,
                 "label": "1.7 اسم الشركة / المنشأة",
                 "name": "Q1_7_Facility_Name",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeText"
               },
               {
@@ -888,10 +884,6 @@
                 "isRequired": false,
                 "label": "1.8 نوع الترخيص",
                 "name": "Q1_8_License_Type",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -902,10 +894,6 @@
                 "isRequired": false,
                 "label": "1.8.1 حدد طبيعة ونوع الترخيص الأخرى",
                 "name": "Q1_8_1_Other_License_Type",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "relevant": {
                   "expression": "/IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '9'",
                   "type": "xform"
@@ -925,10 +913,6 @@
                 "isRequired": false,
                 "label": "1.9 رقم المشتغل المرخص",
                 "name": "Q1_9_Licensed_Worker_Number",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "relevant": {
                   "expression": "/IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '1' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '2' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '3' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '4' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '5'",
                   "type": "xform"
@@ -954,10 +938,6 @@
                 "isRequired": false,
                 "label": "1.10 رقم الهوية",
                 "name": "Q1_10_ID_Number",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "relevant": {
                   "expression": "/IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '6' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '7' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '8' or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_8_License_Type  = '9'",
                   "type": "xform"
@@ -1005,10 +985,6 @@
                 "isRequired": false,
                 "label": "1.11 هل المنشأة مرخّصة وحاصلة على الرخصة الصناعية الصادرة من وزارة الاقتصاد الوطني؟",
                 "name": "Q1_11_Has_Industrial_License",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -1019,10 +995,6 @@
                 "isRequired": false,
                 "label": "1.11.1 يرجى ذكر رقم الرخصة الصناعية الصادرة من وزارة الاقتصاد الوطني؟",
                 "name": "Q1_11_1_Industrial_License_Number",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "relevant": {
                   "expression": "/IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_11_Has_Industrial_License  = '1'",
                   "type": "xform"
@@ -1085,10 +1057,6 @@
                 "isRequired": false,
                 "label": "1.12.1 حدد الوثائق الاخرى",
                 "name": "Q1_12_1_Other_Legal_Documents",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "relevant": {
                   "expression": "selected( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/General_Information/Establishment_Information/Q1_12_Available_Legal_Documents , '4')",
                   "type": "xform"
@@ -1171,10 +1139,6 @@
                 "isRequired": false,
                 "label": "1.14 هل لدى المنشأة عضوية في أحد الاتحادات الصناعية ؟",
                 "name": "Q1_14_Has_Industrial_Union_Membership",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -7838,10 +7802,6 @@
             "isRequired": false,
             "label": "4.4 قيمة الأضرار التقديرية",
             "name": "Q4_4_estimated_damage_value",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": true
@@ -7860,10 +7820,6 @@
             "isRequired": false,
             "label": "calculation_003_001_001_001_00",
             "name": "calculation_003_001_001_001_00",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeText",
             "visibility": {
               "expression": "false()",
@@ -7905,10 +7861,6 @@
             "isRequired": false,
             "label": "4.5 هل يمكن اعادة تأهيل/ تشغيل و صيانة المركبة/المعدة الهندسية؟",
             "name": "Q4_5_vehicle_fixable",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeSingleChoice"
           },
           {
@@ -7919,10 +7871,6 @@
             "isRequired": false,
             "label": "4.6 تكلفة الصيانة واعادة التأهيل للمركبة/المعدة الهندسية بالدولار",
             "name": "Q4_6_vehicle_rehab_cost",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "relevant": {
               "expression": "/IND_Damage_Assessment_of_Damaged_Industrial_Facilities/Q4_Damages_Vehicles_Engineering_Euipment/Q4_5_vehicle_fixable  = '1'",
               "type": "xform"
@@ -7945,10 +7893,6 @@
             "isRequired": false,
             "label": "calculation_003_001_001_001_00_002",
             "name": "calculation_003_001_001_001_00_002",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeText",
             "visibility": {
               "expression": "false()",
@@ -8175,10 +8119,6 @@
             "isRequired": false,
             "label": "5.1 ما هو إجمالي المبيعات لعام 2022 للمنشأة قبل الحرب بالدولار؟",
             "name": "Q5_1_total_sales_2022_pre_war_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8192,10 +8132,6 @@
             "isRequired": false,
             "label": "5.2 ما هو إجمالي المبيعات لعام 2023 للمنشأة قبل الحرب بالدولار؟",
             "name": "Q5_2_total_sales_2023_pre_war_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8209,10 +8145,6 @@
             "isRequired": false,
             "label": "5.3 ما هو إجمالي المبيعات لعام 2024 للمنشأة أثناء الحرب بالدولار؟",
             "name": "Q5_3_total_sales_2024_during_war_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8226,10 +8158,6 @@
             "isRequired": false,
             "label": "5.4 ما هو إجمالي المبيعات لعام 2025 للمنشأة أثناء الحرب بالدولار؟",
             "name": "Q5_4_total_sales_2025_during_war_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8243,10 +8171,6 @@
             "isRequired": false,
             "label": "5.5 ما هي إجمالي الأصول التي كانت لدى المنشأة قبل الحرب بالدولار؟",
             "name": "Q5_5_total_assets_pre_war_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8260,10 +8184,6 @@
             "isRequired": false,
             "label": "5.6 ما هو حجم الذمم المدينة القائمة حالياً بالدولار؟",
             "name": "Q5_6_current_total_accounts_receivable_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8277,10 +8197,6 @@
             "isRequired": false,
             "label": "5.7 ما هي قيمة القروض والإلتزامات المالية الحالية للمنشأة بالدولار؟",
             "name": "Q5_7_current_total_loans_and_financial_liabilities_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8373,10 +8289,6 @@
             "isRequired": false,
             "label": "6.1.1 وضح الخسائر الاخرى",
             "name": "Q6_1_1_specify_other_losses",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "relevant": {
               "expression": "selected( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/Indirect_Losses/Q6_1_other_losses_due_to_war , '8')",
               "type": "xform"
@@ -8426,10 +8338,6 @@
             "isRequired": false,
             "label": "6.2 كيف أثرت الحرب على قدرة منشأتك على الحصول على المواد الخام والموارد الأساسية؟",
             "name": "Q6_2_ability_to_obtain_raw_materials_and_basic_resources",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeSingleChoice"
           },
           {
@@ -8483,10 +8391,6 @@
             "isRequired": false,
             "label": "6.3 كم تقدر نسبة انخفاض إيرادات منشأتك منذ بداية الحرب مقارنة بالفترة التي سبقتها؟",
             "name": "Q6_3_facility_expenditures_since_the_start_of_the_war",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeSingleChoice"
           },
           {
@@ -8497,10 +8401,6 @@
             "isRequired": false,
             "label": "6.4 ما هو إجمالي قيمة الخسائر غير المباشرة المقدرة بالدولار الأمريكي، وفق تقديراتكم الحالية وبناءً على البيانات المتاحة لديكم؟",
             "name": "Q6_4_facility_needs_based_on_current_estimates_and_data",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": true
@@ -8519,10 +8419,6 @@
             "isRequired": false,
             "label": "calculation_003_001_001_001_00_001",
             "name": "calculation_003_001_001_001_00_001",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeText",
             "visibility": {
               "expression": "false()",
@@ -8582,10 +8478,6 @@
             "isRequired": false,
             "label": "7.1 هل عادت المنشأة الى العمل بالامكانات المتاحة حاليا",
             "name": "Q7_1_return_to_work_status",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeSingleChoice"
           },
           {
@@ -8623,10 +8515,6 @@
             "isRequired": false,
             "label": "7.2 هل يعد الركام معيق رئيسي لاستئناف العمل",
             "name": "Q7_2_rubble_obstacle_to_work",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeSingleChoice"
           },
           {
@@ -8664,10 +8552,6 @@
             "isRequired": false,
             "label": "7.3 هل بالإمكان الانتقال إلى المناطق الصناعية عند توفر الإمكانية لاستئناف النشاط؟",
             "name": "Q7_3_relocation_to_industrial_zones",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeSingleChoice"
           },
           {
@@ -8678,10 +8562,6 @@
             "isRequired": false,
             "label": "7.4 ما هو المبلغ الأدنى المتوقع لتأمين العودة إلى العمل بشكل جزئي وسريع؟",
             "name": "Q7_4_min_funding_for_uick_return",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -8779,10 +8659,6 @@
                 "isRequired": false,
                 "label": "الأهمية 1",
                 "name": "Q7_5_1_priority_1",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -8852,10 +8728,6 @@
                 "isRequired": false,
                 "label": "الأهمية 2",
                 "name": "Q7_5_2_priority_2",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -8925,10 +8797,6 @@
                 "isRequired": false,
                 "label": "الأهمية 3",
                 "name": "Q7_5_3_priority_3",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -8998,10 +8866,6 @@
                 "isRequired": false,
                 "label": "الأهمية 4",
                 "name": "Q7_5_4_priority_4",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -9071,10 +8935,6 @@
                 "isRequired": false,
                 "label": "الأهمية 5",
                 "name": "Q7_5_5_priority_5",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -9122,10 +8982,6 @@
                 "isRequired": false,
                 "label": "7.7 ما هي خطط المنشأة لاستئناف العمل على المدى القصير؟",
                 "name": "Q7_7_short_term_resumption_plan",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeText"
               },
               {
@@ -9136,10 +8992,6 @@
                 "isRequired": false,
                 "label": "7.8 ما هي خطط المنشأة لاستئناف العمل على المدى المتوسط؟",
                 "name": "Q7_8_medium_term_resumption_plan",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeText"
               },
               {
@@ -9150,10 +9002,6 @@
                 "isRequired": false,
                 "label": "7.9 ما هي خطط المنشأة لاستئناف العمل على المدى الطويل؟",
                 "name": "Q7_9_long_term_resumption_plan",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeText"
               },
               {
@@ -9164,10 +9012,6 @@
                 "isRequired": false,
                 "label": "7.10 ما هو الإطار الزمني المتوقع للوصول إلى القدرة التشغيلية الجزئية بالاشهر؟",
                 "name": "Q7_10_months_to_partial_capacity",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeNumber",
                 "validation": {
                   "isInteger": true
@@ -9181,10 +9025,6 @@
                 "isRequired": false,
                 "label": "7.11 ما هو الإطار الزمني المتوقع للوصول إلى القدرة التشغيلية الكاملة بالاشهر؟",
                 "name": "Q7_11_months_to_full_capacity",
-                "readOnly": {
-                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-                  "type": "xform"
-                },
                 "type": "esriQuestionTypeNumber",
                 "validation": {
                   "isInteger": true
@@ -9317,10 +9157,6 @@
             "isRequired": false,
             "label": "8.2 ما هو حجم الإيرادات السنوية المتوقع بعد إعادة التأهيل/ التشغيل بالدولار؟",
             "name": "Q8_2_expected_annual_sales_usd",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": false
@@ -9334,10 +9170,6 @@
             "isRequired": false,
             "label": "8.3 كم تُقدّر نسبة القدرة الإنتاجية المتوقعة حاليًا لمنشأتك مقارنةً بالقدرة الإنتاجية قبل الحرب؟",
             "name": "Q8_3_expected_production_capacity_ratio",
-            "readOnly": {
-              "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
-              "type": "xform"
-            },
             "type": "esriQuestionTypeNumber",
             "validation": {
               "isInteger": true
