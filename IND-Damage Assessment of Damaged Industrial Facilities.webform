@@ -544,6 +544,10 @@
                 "isRequired": true,
                 "label": "1.2 جنس مقدم الطلب",
                 "name": "Q1_2_Applicant_Gender",
+                "readOnly": {
+                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
+                  "type": "xform"
+                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -618,6 +622,10 @@
                 "isRequired": true,
                 "label": "1.4 الصفة في المنشأة",
                 "name": "Q1_4_Applicant_Role_In_Facility",
+                "readOnly": {
+                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
+                  "type": "xform"
+                },
                 "type": "esriQuestionTypeSingleChoice"
               },
               {
@@ -671,6 +679,10 @@
                 "isRequired": true,
                 "label": "1.5 رقم موبايل مقدم الطلب",
                 "name": "Q1_5_Applicant_Mobile_Number",
+                "readOnly": {
+                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
+                  "type": "xform"
+                },
                 "type": "esriQuestionTypeText",
                 "validation": {
                   "constraint": {
@@ -692,6 +704,10 @@
                 "isRequired": true,
                 "label": "1.6 رقم موبايل صاحب المنشأة",
                 "name": "Q1_6_Facility_Owner_Mobile_Number",
+                "readOnly": {
+                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
+                  "type": "xform"
+                },
                 "type": "esriQuestionTypeText",
                 "validation": {
                   "constraint": {
@@ -742,6 +758,10 @@
                 ],
                 "minCaptureScale": 591657527.591555,
                 "name": "Q1_7_Coordinates_Main_site",
+                "readOnly": {
+                  "expression": "( /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 1 or  /IND_Damage_Assessment_of_Damaged_Industrial_Facilities/intro/final_source  = 4) and string-length(today()) > 0",
+                  "type": "xform"
+                },
                 "search": {
                   "sources": []
                 },
